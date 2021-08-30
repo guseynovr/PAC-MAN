@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PAC-MAN:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PAC_MAN_jar</output-path>
+    <root id="archive" name="PAC-MAN.jar">
+      <element id="module-output" name="PAC-MAN" />
+      <element id="archive" name="pacman.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/out/production/PAC-MAN/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
